@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="img/LoopiconLogoTransparent.png" type="image/png">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Loopicon</title>
+</head>
+<body>
+    <style>
+        body, html {
+          height: 100%;
+          margin: 0;
+          font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        * {
+          box-sizing: border-box;
+        }
+        
+        .bg-image {
+          /* The image used */
+          background-image: url("img/LoopiconWebHomePage.png");
+          
+          /* Add the blur effect */
+          filter: blur(8px);
+          -webkit-filter: blur(8px);
+          
+          /* Full height */
+          height: 100%; 
+          
+          /* Center and scale the image nicely */
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+        
+        /* Position text in the middle of the page/image */
+        .bg-text {
+          background-color: rgb(0,0,0); /* Fallback color */
+          background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+          color: white;
+          font-weight: bold;
+          border: 3px solid #f1f1f1;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          z-index: 2;
+          width: 60%;
+          padding: 20px;
+          text-align: center;
+        }
+        ul.navbar {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          background-color: #333;
+          position: sticky;
+        }
+
+        li {
+          float: left;
+        }
+
+        li a {
+          display: block;
+          color: white;
+          text-align: center;
+          padding: 20px;
+          text-decoration: none;
+        }
+
+        li a:hover {
+          background-color: #111;
+        }
+        .navbar a.active {
+            background-color: rgb(255, 136, 0);
+        }
+        .bg-text a:link {
+            text-decoration: none;
+            color: white;
+        }
+        .bg-text a:link {
+            text-decoration: none;
+            color: white;
+        }
+        .bg-text a:visited {
+            text-decoration: none;
+            color: white;
+        }
+        .bg-text a:hover {
+            text-decoration: none;
+            color: rgb(255, 136, 0);
+        }
+        .bg-text a:active {
+            text-decoration: none;
+            color: white;
+        }
+        </style>
+        </head>
+        <body>
+        
+            <ul class="navbar">
+                <a href="index.html" style="float: left;" class="active"><img src="img/LoopiconLogo.png" alt=""></a>
+                <li><a href="forums.html">Forums</a></li>
+                <li><a href="https://store.loopicon.net" target="_blank">Store</a></li>
+                <li><a href="ban-appeals.html">Ban Appeals</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="discord.html">Discord</a></li>
+                <li style="float: right;"><a href="login.html">Login</a></li>
+                <li style="float: right;"><a href="signup.html">Sign up</a></li>
+            </ul>
+
+        <div class="bg-image"></div>
+        
+        <div class="bg-text">
+          <h2>Oops! The Forums Should be here</h2>
+          <a href="login.html"><h1 style="font-size:50px">Try logging in?</h1></a>
+          <p>If there is still a problem, please join our <a href="https://discord.gg/Uzs8dQjBHC" target="_blank">discord</a> and we would be thrilled to help you</p>
+        </div>
+        
+</body>
+</html>
